@@ -8,10 +8,13 @@ const cheerio = require('cheerio');
  */
 const parse = data => {
   const $ = cheerio.load(data);
-  const name = $('.section-main h2.restaurant-details__heading--title').text();
-  const experience = $('#experience-section > ul > li:nth-child(2)').text();
-
-  return {name, experience};
+  let names = [];
+  const res = $('.section-main div.restaurant__list-row div.col-md-6 h5.card__menu-content--title').each(function(i, elem) {
+    names.push($(this).text().trim());
+  });
+  if(Object.keys(names).length == 0 ){return null;}
+  //console.log(names);
+  return names;
 };
 
 /**
@@ -19,17 +22,28 @@ const parse = data => {
  * @param  {String}  url
  * @return {Object} restaurant
  */
-module.exports.scrapeRestaurant = async url => {
-  const response = await axios(url);
+const scrapeRestaurant = async url => {
+  let temp = [];
+  let current_page=1;
+  let restaurants = [];
+  do{
+  const response = await axios(url+String(current_page));
   const {data, status} = response;
 
-  if (status >= 200 && status < 300) {
-    return parse(data);
+  if (status >= 200 && status < 300) //code pour savoir si l'url est bon par ex 404 site non existant
+  {
+    temp=parse(data);
+    restaurants.push(temp);    
   }
+
+  current_page +=1;
 
   console.error(status);
 
-  return null;
+}while(temp != null);
+
+return {restaurants};
+
 };
 
 /**
@@ -39,3 +53,11 @@ module.exports.scrapeRestaurant = async url => {
 module.exports.get = () => {
   return [];
 };
+
+
+let ex = scrapeRestaurant('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/');
+
+ex.then(response => console.log(response));
+//getdatas('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/')
+
+
