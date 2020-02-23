@@ -4,17 +4,19 @@ const cheerio = require('cheerio');
 /**
  * Parse webpage restaurant
  * @param  {String} data - html response
- * @return {Object} restaurant
+ * @return {Object} url to get all the info needed
  */
 const parse = data => {
-  const $ = cheerio.load(data);
-  let names = [];
+  let $ = cheerio.load(data);
+  let url=[];
+
   const res = $('.section-main div.restaurant__list-row div.col-md-6 h5.card__menu-content--title').each(function(i, elem) {
-    names.push($(this).text().trim());
-  });
-  if(Object.keys(names).length == 0 ){return null;}
-  //console.log(names);
-  return names;
+    url.push($(this)['0'].children[1].attribs.href);
+    });
+  
+  if(url.length==0){return null;}
+  
+  return url;
 };
 
 /**
@@ -24,27 +26,78 @@ const parse = data => {
  */
 const scrapeRestaurant = async url => {
   let temp = [];
-  let current_page=1;
+  let current_page=2;
   let restaurants = [];
-  do{
-  const response = await axios(url+String(current_page));
-  const {data, status} = response;
+  
+  do{     
+    try{
+      const response = await axios(url+String(current_page));
+      
+      const {data, status} = response;
 
-  if (status >= 200 && status < 300) //code pour savoir si l'url est bon par ex 404 site non existant
-  {
-    temp=parse(data);
-    restaurants.push(temp);    
-  }
+      if (status >= 200 && status < 300) //code pour savoir si l'url est bon par ex 404 site non existant
+      {
+        temp=parse(data);
+        if(temp != null){
+        restaurants.push(...temp)};   // ...temp ajoute seulement les elts du tableau temp 
+      }
+      else{
+        console.error(status);
+        return null;
+      }
+      current_page +=1;
 
-  current_page +=1;
-
-  console.error(status);
+    }catch(e){
+      console.error(e);
+    }
 
 }while(temp != null);
 
-return {restaurants};
+
+
+return restaurants;
+  
+
 
 };
+
+const scrapePage = async url => {
+  let restaurants = [];
+  let current = 0;
+  do{
+  try{
+    const temp = await axios("https://guide.michelin.com/"+url[current]);
+    const {data, status} = temp;
+if (status >= 200 && status < 300)
+{
+restaurants.push(parsePage(data));
+}
+else{
+console.error(status);
+return null;
+}
+}catch(e){
+console.error(e);
+}
+current +=1;
+}while(current < url.length);
+
+return {restaurants};
+
+}
+
+const parsePage = data => {
+  let name;
+  let address;
+  let tel;
+  const $ = cheerio.load(data);
+  name = $('div.restaurant-details div.container div.row div.col-xl-4 div.restaurant-details__heading.d-lg-none h2.restaurant-details__heading--title').text();
+  address = $('div.restaurant-details__heading ul.restaurant-details__heading--list').text().trim().split('\n')[0];
+  tel = $('.section-main div.row div.d-flex span.flex-fill').text().substring(0,14); 
+
+  return {'name':name,'address':address, 'tel': tel};  
+}
+
 
 /**
  * Get all France located Bib Gourmand restaurants
@@ -55,9 +108,16 @@ module.exports.get = () => {
 };
 
 
-let ex = scrapeRestaurant('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/');
 
-ex.then(response => console.log(response));
-//getdatas('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/')
+  let ex = scrapeRestaurant('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/');
+  ex.then(response => {
+    //console.log(response);
+    let temp = scrapePage(response);
+    temp.then(result => console.log(result));
+  });
+
+
+
+
 
 
