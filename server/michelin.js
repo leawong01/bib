@@ -1,5 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const fs = require('fs');
 
 /**
  * Parse webpage restaurant
@@ -65,24 +66,25 @@ const scrapePage = async url => {
   let restaurants = [];
   let current = 0;
   do{
-  try{
-    const temp = await axios("https://guide.michelin.com/"+url[current]);
-    const {data, status} = temp;
-if (status >= 200 && status < 300)
-{
-restaurants.push(parsePage(data));
-}
-else{
-console.error(status);
-return null;
-}
-}catch(e){
-console.error(e);
-}
-current +=1;
-}while(current < url.length);
+    try{
+      const temp = await axios("https://guide.michelin.com/"+url[current]);
+      const {data, status} = temp;
+      if (status >= 200 && status < 300)
+      {
+      restaurants.push(parsePage(data));
+      }
+      else{
+      console.error(status);
+      return null;
+      }
+    }catch(e){
+      console.error(e);
+      return null;
+    }
+    current +=1;
+  }while(current < url.length);
 
-return {restaurants};
+  return {restaurants};
 
 }
 
@@ -93,7 +95,7 @@ const parsePage = data => {
   const $ = cheerio.load(data);
   name = $('div.restaurant-details div.container div.row div.col-xl-4 div.restaurant-details__heading.d-lg-none h2.restaurant-details__heading--title').text();
   address = $('div.restaurant-details__heading ul.restaurant-details__heading--list').text().trim().split('\n')[0];
-  tel = $('.section-main div.row div.d-flex span.flex-fill').text().substring(0,14); 
+  tel = $('.section-main div.row div.d-flex span.flex-fill').text().substring(0,17); 
 
   return {'name':name,'address':address, 'tel': tel};  
 }
@@ -111,9 +113,20 @@ module.exports.get = () => {
 
   let ex = scrapeRestaurant('https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/');
   ex.then(response => {
-    //console.log(response);
     let temp = scrapePage(response);
-    temp.then(result => console.log(result));
+    temp.then(result => {
+      const json = JSON.stringify(result.restaurants,null,2);
+
+      fs.writeFile('./michelin.json', json, err => {
+        if (err) {
+            console.log('Error writing file', err);
+        } 
+        else {
+            console.log('Successfully wrote file');
+        }
+      })
+
+    });
   });
 
 

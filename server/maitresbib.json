@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Le Manoir du Sphinx",
+    "address": "67 chemin de la Messe, Perros-Guirec, 22700, France",
+    "tel": "+33 2 96 23 25 42"
+  },
+  {
+    "name": "Julien",
+    "address": "Route de Strasbourg, Fouday, 67130, France",
+    "tel": "+33 3 88 97 30 09"
+  },
+  {
+    "name": "Le Chalet",
+    "address": "4 avenue Durandeau, Ax-les-Thermes, 09110, France",
+    "tel": "+33 5 61 64 24 31"
+  },
+  {
+    "name": "Le Petit St-Thomas",
+    "address": "25 rue de Lattre-de-Tassigny, La Garnache, 85710, France",
+    "tel": "+33 2 51 49 05 99"
+  },
+  {
+    "name": "Auberge de la Rivière",
+    "address": "rue du Port-de-la-Fouarne, Velluire, 85770, France",
+    "tel": "+33 2 51 52 32 15"
+  },
+  {
+    "name": "Les Canailles Ménilmontant",
+    "address": "15 rue des Panoyaux, Paris, 75020, France",
+    "tel": "+33 1 43 58 45 45"
+  },
+  {
+    "name": "La Closerie des Roses",
+    "address": "455 La Haute-Meilleraie, Varades, 44370, France",
+    "tel": "+33 2 40 98 33 30"
+  },
+  {
+    "name": "Au Chapeau Rouge",
+    "address": "49 place du Général-de-Gaulle, Chinon, 37500, France",
+    "tel": "+33 2 47 98 08 08"
+  },
+  {
+    "name": "Maison Gambert",
+    "address": "2 rue de la Petite-Pirelle, Tain-l'Hermitage, 26600, France",
+    "tel": "+33 4 75 09 19 85"
+  },
+  {
+    "name": "L'Embellie",
+    "address": "le Bourg, Sainte-Cécile, 71250, France",
+    "tel": "+33 3 85 50 81 81"
+  },
+  {
+    "name": "Auberge de l'Île",
+    "address": "3 place Bouchard, L'Île-Bouchard, 37220, France",
+    "tel": "+33 2 47 58 51 07"
+  },
+  {
+    "name": "La Table",
+    "address": "1 traverse de Jas, Les Ribas, Tourtour, 83690, France",
+    "tel": "+33 4 94 70 55 95"
+  },
+  {
+    "name": "Auberge de Ti-Coz",
+    "address": "4 Hent-Koz, Ty-Sanquer, 29000, France",
+    "tel": "+33 2 98 94 50 02"
+  },
+  {
+    "name": "Voyages des sens",
+    "address": "33 rue Principale, Treffort, 01370, France",
+    "tel": "+33 4 74 51 39 94"
+  },
+  {
+    "name": "La Fleur de Sel",
+    "address": "15 route du Portelin, Cevins, 73730, France",
+    "tel": "+33 4 79 37 49 98"
+  },
+  {
+    "name": "Ttotta",
+    "address": "Espace Ibarrondoan, Saint-Pée-sur-Nivelle, 64310, France",
+    "tel": "+33 5 59 47 03 55"
+  },
+  {
+    "name": "Hôtel de France",
+    "address": "1 rue Marx-Dormoy, Montmarault, 03390, France",
+    "tel": "+33 4 70 07 60 26"
+  },
+  {
+    "name": "La Table de Léo",
+    "address": "Le Bourg, Saint-Avit-Sénieur, 24440, France",
+    "tel": "+33 5 53 57 89 15"
+  },
+  {
+    "name": "Chez Michel",
+    "address": "10 rue de Belzunce, Paris, 75010, France",
+    "tel": "+33 1 44 53 06 20"
+  },
+  {
+    "name": "Le Bon Accueil",
+    "address": "1 rue de Laval, Richardménil, 54630, France",
+    "tel": "+33 3 83 25 62 10"
+  },
+  {
+    "name": "Cheval Blanc",
+    "address": "1 rue de Bisel, Feldbach, 68640, France",
+    "tel": "+33 3 89 25 81 86"
+  },
+  {
+    "name": "Auberge des Deux Magots",
+    "address": "1 place du Bouffay, La Roche-Bernard, 56130, France",
+    "tel": "+33 2 99 90 60 75"
+  },
+  {
+    "name": "L'Épicurien",
+    "address": "42 place Jean-Jaurès, Albi, 81000, France",
+    "tel": "+33 5 63 53 10 70"
+  },
+  {
+    "name": "Auberge Pyrénées Cévennes",
+    "address": "106 rue de la Folie-Méricourt, Paris, 75011, France",
+    "tel": "+33 1 43 57 33 78"
+  },
+  {
+    "name": "Le Rabelais",
+    "address": "8 rue Auguste-Fabre, Saint-Chamas, 13250, France",
+    "tel": "+33 4 90 50 84 40"
+  },
+  {
+    "name": "Le Réciproque",
+    "address": "14 rue Ferdinand-Flocon, Paris, 75018, France",
+    "tel": "+33 9 86 37 80 77"
+  },
+  {
+    "name": "Le Lancelot",
+    "address": "12 rue des Déportés, Chilleurs-aux-Bois, 45170, France",
+    "tel": "+33 2 38 32 91 15"
+  },
+  {
+    "name": "Coteaux et Fourchettes",
+    "address": "Route de Violès, Cairanne, 84290, France",
+    "tel": "+33 4 90 66 35 99"
+  },
+  {
+    "name": "Auberge des Chenêts",
+    "address": "10 route Nationale 6, Valloux, 89200, France",
+    "tel": "+33 3 86 34 23 34"
+  },
+  {
+    "name": "La Griotte",
+    "address": "3 rue des Cerisiers, Saules, 25580, France",
+    "tel": "+33 3 81 57 17 71"
+  },
+  {
+    "name": "La Maison",
+    "address": "1 rue du 14-Juillet, Cognac, 16100, France",
+    "tel": "+33 5 45 35 21 77"
+  },
+  {
+    "name": "Histoire Ancienne",
+    "address": "20 rue Royale, Calais, 62100, France",
+    "tel": "+33 3 21 34 11 20"
+  },
+  {
+    "name": "Au Colombier",
+    "address": "126 allée Colombier, Anse, 69480, France",
+    "tel": "+33 4 74 67 04 68"
+  },
+  {
+    "name": "Manoir de la Pommeraie",
+    "address": "L'Auvère, Vire, 14500, France",
+    "tel": "+33 2 31 68 07 71"
+  },
+  {
+    "name": "Les Épices Curiens",
+    "address": "3b place de la Gare, Écouviez, 55600, France",
+    "tel": "+33 3 29 86 84 58"
+  },
+  {
+    "name": "Le Dauphin",
+    "address": "29 rue Gemare, Caen, 14000, France",
+    "tel": "+33 2 31 86 22 26"
+  },
+  {
+    "name": "La Maison Carrier",
+    "address": "44 route du Bouchet, Chamonix-Mont-Blanc, 74400, France",
+    "tel": "+33 4 50 53 00 03"
+  },
+  {
+    "name": "Les Capucins",
+    "address": "20 faubourg de Montbéliard, Belfort, 90000, France",
+    "tel": "+33 3 84 28 04 60"
+  },
+  {
+    "name": "La Table d'Aimé",
+    "address": "4 Rue Francisco Ferrer, Rivesaltes, 66600, France",
+    "tel": "+33 4 68 34 35 77"
+  },
+  {
+    "name": "La Balade des Saveurs",
+    "address": "3 quai Jean-Jaurès, L'Isle-sur-la-Sorgue, 84800, France",
+    "tel": "+33 4 90 95 27 85"
+  },
+  {
+    "name": "Ar Maen Hir",
+    "address": "15 bis rue du Prieuré, Locronan, 29180, France",
+    "tel": "+33 2 56 10 18 37"
+  },
+  {
+    "name": "Le Bastion",
+    "address": "50 boulevard de la Promenade, Lagrasse, 11220, France",
+    "tel": "+33 4 68 12 02 51"
+  }
+]
