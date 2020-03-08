@@ -4,16 +4,17 @@
     margin-left: 10%;
 }
 #searchIcon {
-   font-size: 30px;
+   font-size: 25px;
    color: #C34942;
    margin-top: 1%;
 }
 #searchBox {
-    font-size: x-large;
+    font-size: 20px;
     width: 400px;
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
     margin-left: 1%;
+    padding-left: 1%;
     margin-right: 15%;
     margin-top: 1%;
 }
