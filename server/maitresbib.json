@@ -2,211 +2,471 @@
   {
     "name": "Le Manoir du Sphinx",
     "address": "67 chemin de la Messe, Perros-Guirec, 22700, France",
-    "tel": "+33 2 96 23 25 42"
+    "tel": "+33 2 96 23 25 42",
+    "position": {
+      "lat": "48.8197582",
+      "lon": "-3.4361377"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bretagne/perros-guirec/restaurant/le-manoir-du-sphinx"
   },
   {
     "name": "Julien",
     "address": "Route de Strasbourg, Fouday, 67130, France",
-    "tel": "+33 3 88 97 30 09"
+    "tel": "+33 3 88 97 30 09",
+    "position": {
+      "lat": "48.4226200",
+      "lon": "7.1841200"
+    },
+    "url": "https://guide.michelin.com//fr/fr/grand-est/fouday/restaurant/julien"
   },
   {
     "name": "Le Chalet",
     "address": "4 avenue Durandeau, Ax-les-Thermes, 09110, France",
-    "tel": "+33 5 61 64 24 31"
+    "tel": "+33 5 61 64 24 31",
+    "position": {
+      "lat": "42.7184266",
+      "lon": "1.8395359"
+    },
+    "url": "https://guide.michelin.com//fr/fr/occitanie/ax-les-thermes/restaurant/le-chalet123050"
   },
   {
     "name": "Le Petit St-Thomas",
     "address": "25 rue de Lattre-de-Tassigny, La Garnache, 85710, France",
-    "tel": "+33 2 51 49 05 99"
+    "tel": "+33 2 51 49 05 99",
+    "position": {
+      "lat": "46.8894160",
+      "lon": "-1.8336135"
+    },
+    "url": "https://guide.michelin.com//fr/fr/pays-de-la-loire/la-garnache/restaurant/le-petit-st-thomas"
   },
   {
     "name": "Auberge de la Rivière",
     "address": "rue du Port-de-la-Fouarne, Velluire, 85770, France",
-    "tel": "+33 2 51 52 32 15"
+    "tel": "+33 2 51 52 32 15",
+    "position": {
+      "lat": "46.4064515",
+      "lon": "-0.8931020"
+    },
+    "url": "https://guide.michelin.com//fr/fr/pays-de-la-loire/velluire/restaurant/auberge-de-la-riviere"
   },
   {
     "name": "Les Canailles Ménilmontant",
     "address": "15 rue des Panoyaux, Paris, 75020, France",
-    "tel": "+33 1 43 58 45 45"
+    "tel": "+33 1 43 58 45 45",
+    "position": {
+      "lat": "48.8665092",
+      "lon": "2.3852545"
+    },
+    "url": "https://guide.michelin.com//fr/fr/ile-de-france/paris/restaurant/les-canailles-menilmontant"
   },
   {
     "name": "La Closerie des Roses",
     "address": "455 La Haute-Meilleraie, Varades, 44370, France",
-    "tel": "+33 2 40 98 33 30"
+    "tel": "+33 2 40 98 33 30",
+    "position": {
+      "lat": "47.3714870",
+      "lon": "-1.0165880"
+    },
+    "url": "https://guide.michelin.com//fr/fr/pays-de-la-loire/varades/restaurant/la-closerie-des-roses"
+  },
+  {
+    "name": "Le Saint-Jacques",
+    "address": "Place du Monument, Thorigné-sur-Dué, 72160, France",
+    "tel": "+33 2 43 89 95 50",
+    "position": {
+      "lat": "48.0402413",
+      "lon": "0.5356451"
+    },
+    "url": "https://guide.michelin.com//fr/fr/pays-de-la-loire/thorign-sur-du/restaurant/le-saint-jacques"
+  },
+  {
+    "name": "Le Grand St-Benoît",
+    "address": "7 place St-André, Saint-Benoît-sur-Loire, 45730, France",
+    "tel": "+33 2 38 35 11 92",
+    "position": {
+      "lat": "47.8123200",
+      "lon": "2.3091700"
+    },
+    "url": "https://guide.michelin.com//fr/fr/centre-val-de-loire/saint-benot-sur-loire/restaurant/le-grand-st-benoit"
   },
   {
     "name": "Au Chapeau Rouge",
     "address": "49 place du Général-de-Gaulle, Chinon, 37500, France",
-    "tel": "+33 2 47 98 08 08"
+    "tel": "+33 2 47 98 08 08",
+    "position": {
+      "lat": "47.1669407",
+      "lon": "0.2401172"
+    },
+    "url": "https://guide.michelin.com//fr/fr/centre-val-de-loire/chinon/restaurant/au-chapeau-rouge"
   },
   {
     "name": "Maison Gambert",
     "address": "2 rue de la Petite-Pirelle, Tain-l'Hermitage, 26600, France",
-    "tel": "+33 4 75 09 19 85"
+    "tel": "+33 4 75 09 19 85",
+    "position": {
+      "lat": "45.0745399",
+      "lon": "4.8610574"
+    },
+    "url": "https://guide.michelin.com//fr/fr/auvergne-rhone-alpes/tain-l-hermitage/restaurant/maison-gambert"
   },
   {
     "name": "L'Embellie",
     "address": "le Bourg, Sainte-Cécile, 71250, France",
-    "tel": "+33 3 85 50 81 81"
+    "tel": "+33 3 85 50 81 81",
+    "position": {
+      "lat": "46.3904152",
+      "lon": "4.6250769"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bourgogne-franche-comte/sainte-ccile/restaurant/l-embellie8305"
   },
   {
     "name": "Auberge de l'Île",
     "address": "3 place Bouchard, L'Île-Bouchard, 37220, France",
-    "tel": "+33 2 47 58 51 07"
+    "tel": "+33 2 47 58 51 07",
+    "position": {
+      "lat": "47.1201320",
+      "lon": "0.4253755"
+    },
+    "url": "https://guide.michelin.com//fr/fr/centre-val-de-loire/l-le-bouchard/restaurant/auberge-de-l-ile"
   },
   {
     "name": "La Table",
     "address": "1 traverse de Jas, Les Ribas, Tourtour, 83690, France",
-    "tel": "+33 4 94 70 55 95"
+    "tel": "+33 4 94 70 55 95",
+    "position": {
+      "lat": "43.5889770",
+      "lon": "6.3032316"
+    },
+    "url": "https://guide.michelin.com//fr/fr/provence-alpes-cote-dazur/tourtour/restaurant/la-table63544"
   },
   {
     "name": "Auberge de Ti-Coz",
     "address": "4 Hent-Koz, Ty-Sanquer, 29000, France",
-    "tel": "+33 2 98 94 50 02"
+    "tel": "+33 2 98 94 50 02",
+    "position": {
+      "lat": "48.0423858",
+      "lon": "-4.0725792"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bretagne/ty-sanquer/restaurant/auberge-de-ti-coz"
   },
   {
     "name": "Voyages des sens",
     "address": "33 rue Principale, Treffort, 01370, France",
-    "tel": "+33 4 74 51 39 94"
+    "tel": "+33 4 74 51 39 94",
+    "position": {
+      "lat": "46.2981830",
+      "lon": "5.3879540"
+    },
+    "url": "https://guide.michelin.com//fr/fr/auvergne-rhone-alpes/treffort/restaurant/voyages-des-sens"
   },
   {
     "name": "La Fleur de Sel",
     "address": "15 route du Portelin, Cevins, 73730, France",
-    "tel": "+33 4 79 37 49 98"
+    "tel": "+33 4 79 37 49 98",
+    "position": {
+      "lat": "45.5930100",
+      "lon": "6.4570400"
+    },
+    "url": "https://guide.michelin.com//fr/fr/auvergne-rhone-alpes/cevins/restaurant/la-fleur-de-sel121851"
   },
   {
     "name": "Ttotta",
     "address": "Espace Ibarrondoan, Saint-Pée-sur-Nivelle, 64310, France",
-    "tel": "+33 5 59 47 03 55"
+    "tel": "+33 5 59 47 03 55",
+    "position": {
+      "lat": "43.3560500",
+      "lon": "-1.5633099"
+    },
+    "url": "https://guide.michelin.com//fr/fr/nouvelle-aquitaine/saint-pe-sur-nivelle/restaurant/ttotta"
+  },
+  {
+    "name": "La Forêt",
+    "address": "22 rue de Verdun, Senonches, 28250, France",
+    "tel": "+33 2 37 37 78 50",
+    "position": {
+      "lat": "48.5602808",
+      "lon": "1.0338828"
+    },
+    "url": "https://guide.michelin.com//fr/fr/centre-val-de-loire/senonches/restaurant/la-foret333279"
   },
   {
     "name": "Hôtel de France",
     "address": "1 rue Marx-Dormoy, Montmarault, 03390, France",
-    "tel": "+33 4 70 07 60 26"
+    "tel": "+33 4 70 07 60 26",
+    "position": {
+      "lat": "46.3190731",
+      "lon": "2.9562153"
+    },
+    "url": "https://guide.michelin.com//fr/fr/auvergne-rhone-alpes/montmarault/restaurant/hotel-de-france5012"
   },
   {
     "name": "La Table de Léo",
     "address": "Le Bourg, Saint-Avit-Sénieur, 24440, France",
-    "tel": "+33 5 53 57 89 15"
+    "tel": "+33 5 53 57 89 15",
+    "position": {
+      "lat": "44.7746774",
+      "lon": "0.8159677"
+    },
+    "url": "https://guide.michelin.com//fr/fr/nouvelle-aquitaine/saint-avit-snieur/restaurant/la-table-de-leo"
   },
   {
     "name": "Chez Michel",
     "address": "10 rue de Belzunce, Paris, 75010, France",
-    "tel": "+33 1 44 53 06 20"
+    "tel": "+33 1 44 53 06 20",
+    "position": {
+      "lat": "48.8795129",
+      "lon": "2.3521222"
+    },
+    "url": "https://guide.michelin.com//fr/fr/ile-de-france/paris/restaurant/chez-michel"
+  },
+  {
+    "name": "Au Raisin d'Or",
+    "address": "1 rue de l'Église, Zimmerbach, 68230, France",
+    "tel": "+33 3 89 71 05 69",
+    "position": {
+      "lat": "48.0741413",
+      "lon": "7.2340804"
+    },
+    "url": "https://guide.michelin.com//fr/fr/grand-est/zimmerbach/restaurant/au-raisin-d-or"
   },
   {
     "name": "Le Bon Accueil",
     "address": "1 rue de Laval, Richardménil, 54630, France",
-    "tel": "+33 3 83 25 62 10"
+    "tel": "+33 3 83 25 62 10",
+    "position": {
+      "lat": "48.5915762",
+      "lon": "6.1660349"
+    },
+    "url": "https://guide.michelin.com//fr/fr/grand-est/richardmnil/restaurant/le-bon-accueil"
   },
   {
     "name": "Cheval Blanc",
     "address": "1 rue de Bisel, Feldbach, 68640, France",
-    "tel": "+33 3 89 25 81 86"
+    "tel": "+33 3 89 25 81 86",
+    "position": {
+      "lat": "47.5358312",
+      "lon": "7.2648374"
+    },
+    "url": "https://guide.michelin.com//fr/fr/grand-est/feldbach/restaurant/cheval-blanc"
   },
   {
     "name": "Auberge des Deux Magots",
     "address": "1 place du Bouffay, La Roche-Bernard, 56130, France",
-    "tel": "+33 2 99 90 60 75"
+    "tel": "+33 2 99 90 60 75",
+    "position": {
+      "lat": "47.5185240",
+      "lon": "-2.3025745"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bretagne/la-roche-bernard/restaurant/auberge-des-deux-magots"
   },
   {
     "name": "L'Épicurien",
     "address": "42 place Jean-Jaurès, Albi, 81000, France",
-    "tel": "+33 5 63 53 10 70"
+    "tel": "+33 5 63 53 10 70",
+    "position": {
+      "lat": "43.9245387",
+      "lon": "2.1487240"
+    },
+    "url": "https://guide.michelin.com//fr/fr/occitanie/albi/restaurant/l-epicurien66531"
   },
   {
     "name": "Auberge Pyrénées Cévennes",
     "address": "106 rue de la Folie-Méricourt, Paris, 75011, France",
-    "tel": "+33 1 43 57 33 78"
+    "tel": "+33 1 43 57 33 78",
+    "position": {
+      "lat": "48.8680983",
+      "lon": "2.3685454"
+    },
+    "url": "https://guide.michelin.com//fr/fr/ile-de-france/paris/restaurant/auberge-pyrenees-cevennes"
   },
   {
     "name": "Le Rabelais",
     "address": "8 rue Auguste-Fabre, Saint-Chamas, 13250, France",
-    "tel": "+33 4 90 50 84 40"
+    "tel": "+33 4 90 50 84 40",
+    "position": {
+      "lat": "43.5501000",
+      "lon": "5.0323400"
+    },
+    "url": "https://guide.michelin.com//fr/fr/provence-alpes-cote-dazur/saint-chamas/restaurant/le-rabelais"
   },
   {
     "name": "Le Réciproque",
     "address": "14 rue Ferdinand-Flocon, Paris, 75018, France",
-    "tel": "+33 9 86 37 80 77"
+    "tel": "+33 9 86 37 80 77",
+    "position": {
+      "lat": "48.8917960",
+      "lon": "2.3460972"
+    },
+    "url": "https://guide.michelin.com//fr/fr/ile-de-france/paris/restaurant/le-reciproque"
   },
   {
     "name": "Le Lancelot",
     "address": "12 rue des Déportés, Chilleurs-aux-Bois, 45170, France",
-    "tel": "+33 2 38 32 91 15"
+    "tel": "+33 2 38 32 91 15",
+    "position": {
+      "lat": "48.0713200",
+      "lon": "2.1345500"
+    },
+    "url": "https://guide.michelin.com//fr/fr/centre-val-de-loire/chilleurs-aux-bois/restaurant/le-lancelot"
+  },
+  {
+    "name": "Le St-Georges",
+    "address": "4 boulevard Maréchal-Foch, Palavas-les-Flots, 34250, France",
+    "tel": "+33 4 67 68 31 38",
+    "position": {
+      "lat": "43.5268500",
+      "lon": "3.9316200"
+    },
+    "url": "https://guide.michelin.com//fr/fr/occitanie/palavas-les-flots/restaurant/le-st-georges431652"
   },
   {
     "name": "Coteaux et Fourchettes",
     "address": "Route de Violès, Cairanne, 84290, France",
-    "tel": "+33 4 90 66 35 99"
+    "tel": "+33 4 90 66 35 99",
+    "position": {
+      "lat": "44.2032400",
+      "lon": "4.9457600"
+    },
+    "url": "https://guide.michelin.com//fr/fr/provence-alpes-cote-dazur/cairanne/restaurant/coteaux-et-fourchettes"
   },
   {
     "name": "Auberge des Chenêts",
     "address": "10 route Nationale 6, Valloux, 89200, France",
-    "tel": "+33 3 86 34 23 34"
+    "tel": "+33 3 86 34 23 34",
+    "position": {
+      "lat": "47.5119044",
+      "lon": "3.8414123"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bourgogne-franche-comte/valloux/restaurant/auberge-des-chenets"
   },
   {
     "name": "La Griotte",
     "address": "3 rue des Cerisiers, Saules, 25580, France",
-    "tel": "+33 3 81 57 17 71"
+    "tel": "+33 3 81 57 17 71",
+    "position": {
+      "lat": "47.1238170",
+      "lon": "6.2002160"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bourgogne-franche-comte/saules/restaurant/la-griotte"
   },
   {
     "name": "La Maison",
     "address": "1 rue du 14-Juillet, Cognac, 16100, France",
-    "tel": "+33 5 45 35 21 77"
+    "tel": "+33 5 45 35 21 77",
+    "position": {
+      "lat": "45.6931279",
+      "lon": "-0.3256814"
+    },
+    "url": "https://guide.michelin.com//fr/fr/nouvelle-aquitaine/cognac/restaurant/la-maison"
   },
   {
     "name": "Histoire Ancienne",
     "address": "20 rue Royale, Calais, 62100, France",
-    "tel": "+33 3 21 34 11 20"
+    "tel": "+33 3 21 34 11 20",
+    "position": {
+      "lat": "50.9569000",
+      "lon": "1.8495400"
+    },
+    "url": "https://guide.michelin.com//fr/fr/hauts-de-france/calais/restaurant/histoire-ancienne"
   },
   {
     "name": "Au Colombier",
     "address": "126 allée Colombier, Anse, 69480, France",
-    "tel": "+33 4 74 67 04 68"
+    "tel": "+33 4 74 67 04 68",
+    "position": {
+      "lat": "45.9454350",
+      "lon": "4.7258210"
+    },
+    "url": "https://guide.michelin.com//fr/fr/auvergne-rhone-alpes/anse/restaurant/au-colombier"
   },
   {
     "name": "Manoir de la Pommeraie",
     "address": "L'Auvère, Vire, 14500, France",
-    "tel": "+33 2 31 68 07 71"
+    "tel": "+33 2 31 68 07 71",
+    "position": {
+      "lat": "48.8297661",
+      "lon": "-0.8608496"
+    },
+    "url": "https://guide.michelin.com//fr/fr/normandie/vire/restaurant/manoir-de-la-pommeraie"
   },
   {
     "name": "Les Épices Curiens",
     "address": "3b place de la Gare, Écouviez, 55600, France",
-    "tel": "+33 3 29 86 84 58"
+    "tel": "+33 3 29 86 84 58",
+    "position": {
+      "lat": "49.5242542",
+      "lon": "5.4564853"
+    },
+    "url": "https://guide.michelin.com//fr/fr/grand-est/couviez/restaurant/les-epices-curiens"
   },
   {
     "name": "Le Dauphin",
     "address": "29 rue Gemare, Caen, 14000, France",
-    "tel": "+33 2 31 86 22 26"
+    "tel": "+33 2 31 86 22 26",
+    "position": {
+      "lat": "49.1846061",
+      "lon": "-0.3648739"
+    },
+    "url": "https://guide.michelin.com//fr/fr/normandie/caen/restaurant/le-dauphin10467"
   },
   {
     "name": "La Maison Carrier",
     "address": "44 route du Bouchet, Chamonix-Mont-Blanc, 74400, France",
-    "tel": "+33 4 50 53 00 03"
+    "tel": "+33 4 50 53 00 03",
+    "position": {
+      "lat": "45.9251353",
+      "lon": "6.8736882"
+    },
+    "url": "https://guide.michelin.com//fr/fr/auvergne-rhone-alpes/chamonix-mont-blanc/restaurant/la-maison-carrier"
   },
   {
     "name": "Les Capucins",
     "address": "20 faubourg de Montbéliard, Belfort, 90000, France",
-    "tel": "+33 3 84 28 04 60"
+    "tel": "+33 3 84 28 04 60",
+    "position": {
+      "lat": "47.6358100",
+      "lon": "6.8577700"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bourgogne-franche-comte/belfort/restaurant/les-capucins"
   },
   {
     "name": "La Table d'Aimé",
     "address": "4 Rue Francisco Ferrer, Rivesaltes, 66600, France",
-    "tel": "+33 4 68 34 35 77"
+    "tel": "+33 4 68 34 35 77",
+    "position": {
+      "lat": "42.7700821",
+      "lon": "2.8776854"
+    },
+    "url": "https://guide.michelin.com//fr/fr/occitanie/rivesaltes/restaurant/la-table-d-aime"
   },
   {
     "name": "La Balade des Saveurs",
     "address": "3 quai Jean-Jaurès, L'Isle-sur-la-Sorgue, 84800, France",
-    "tel": "+33 4 90 95 27 85"
+    "tel": "+33 4 90 95 27 85",
+    "position": {
+      "lat": "43.9197400",
+      "lon": "5.0549746"
+    },
+    "url": "https://guide.michelin.com//fr/fr/provence-alpes-cote-dazur/l-isle-sur-la-sorgue/restaurant/la-balade-des-saveurs"
   },
   {
     "name": "Ar Maen Hir",
     "address": "15 bis rue du Prieuré, Locronan, 29180, France",
-    "tel": "+33 2 56 10 18 37"
+    "tel": "+33 2 56 10 18 37",
+    "position": {
+      "lat": "48.0977773",
+      "lon": "-4.2114968"
+    },
+    "url": "https://guide.michelin.com//fr/fr/bretagne/locronan/restaurant/ar-maen-hir"
   },
   {
     "name": "Le Bastion",
     "address": "50 boulevard de la Promenade, Lagrasse, 11220, France",
-    "tel": "+33 4 68 12 02 51"
+    "tel": "+33 4 68 12 02 51",
+    "position": {
+      "lat": "43.0891229",
+      "lon": "2.6196977"
+    },
+    "url": "https://guide.michelin.com//fr/fr/occitanie/lagrasse/restaurant/le-bastion"
   }
 ]

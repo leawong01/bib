@@ -71,7 +71,9 @@ const scrapePage = async url => {
       const {data, status} = temp;
       if (status >= 200 && status < 300)
       {
-      restaurants.push(parsePage(data));
+        let temp= parsePage(data);
+        temp['url']="https://guide.michelin.com/"+url[current];
+        restaurants.push(temp);
       }
       else{
       console.error(status);
@@ -92,13 +94,20 @@ const parsePage = data => {
   let name;
   let address;
   let tel;
+  let position = {};
   const $ = cheerio.load(data);
   name = $('div.restaurant-details div.container div.row div.col-xl-4 div.restaurant-details__heading.d-lg-none h2.restaurant-details__heading--title').text();
   address = $('div.restaurant-details__heading ul.restaurant-details__heading--list').text().trim().split('\n')[0];
-  tel = $('.section-main div.row div.d-flex span.flex-fill').text().substring(0,17); 
+  tel = $('.section-main div.row div.d-flex span.flex-fill').text().substring(0,17);
+  let coord = $('.section-main div.row div.google-map__static');
+  coord = coord['0'].children[1].attribs.src.split('=')[2].split(',');
+  position = {'lat': coord[0],'lon':coord[1]}
 
-  return {'name':name,'address':address, 'tel': tel};  
+  let result = {'name':name,'address':address, 'tel': tel, 'position': position}
+
+  return result;  
 }
+
 
 
 /**
