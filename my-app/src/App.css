@@ -1,0 +1,27 @@
+.header {
+  background-color: rgb(206, 201, 201, 0.45);
+  width: auto;
+}
+
+h1 {
+  font : white;
+  font-size: 20px;
+  margin-left: 41%;
+  margin-top: 0%;
+  padding-bottom: 2%;
+}
+.logo-container {
+  padding-left: 1% ;
+  width: 90px;
+  height: 90px;
+  margin-left: 45%;
+  padding-top: 0.5%;
+
+}
+
+.logo{
+  width: 100%;
+  height: auto;
+}
+
+
